@@ -11,8 +11,7 @@ python-cron
 使用方法：
 
 1. 配置json，详细配置方法请参考config/config.json 
-1. ```python cron.py -all start 
-   python cron.py -某个任务名称 start``` 
+1. `python cron.py -all start` 或者`python cron.py -某个任务名称 start` 
 1. 成功执行 
 1. 如果执行的命令有返回值，就会产生日志在log下，命名的方式为`/log/任务名称/access_log.txt` 
 
